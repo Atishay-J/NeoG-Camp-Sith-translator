@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&family=Roboto:wght@300;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+:root {
+  --font1: "Montserrat", sans-serif;
+  --font2: "Roboto", sans-serif;
+  --font3: "Poller One", cursive;
+  --col1: rgb(255, 0, 0);
+  --shadow: rgba(50, 50, 50, 0.123);
+  --box: 1px 5px 14px 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(12, 12, 12);
+}
+header {
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+  background: #000;
+  box-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px red,
+    0 0 12px red;
+}
+.logo {
+  font-size: 1.5rem;
+  font-family: var(--font1);
+  font-weight: 300;
+  color: white;
+  text-shadow: 0px 5px 4px rgb(10, 233, 233);
+}
+span {
+  background: var(--col1);
+  border-radius: 0px 20px 0 0px;
+  padding: 0.2rem;
+  color: white;
+}
+.icon1 {
+  height: 5.5rem;
+  margin-top: -0.2rem;
+  margin-left: 0.7rem;
+  border-radius: 50px;
+  padding: 0.3rem;
+}
+.title {
+  text-align: center;
+  font-family: var(--font3);
+  font-weight: 700;
+  padding-top: 3rem;
+  color: rgb(223, 223, 223);
+}
+#light_saber {
+  width: 25rem;
+  height: 0.2rem;
+  margin: auto;
+  margin-top: 1rem;
+  background: rgb(255, 255, 255);
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 15px blue,
+    0 0 25px blue;
+}
+.main-container {
+  background: rgb(12, 12, 12);
+  margin-top: 0.8rem;
+}
+.container {
+  /* border: 1px solid red; */
+  box-shadow: var(--box) var(--shadow);
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.lang-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: var(--font1);
+  font-weight: 600;
+  color: rgba(255, 251, 251, 0.904);
+  padding-top: 2rem;
+  margin-top: 4rem;
+}
+textarea {
+  width: 80%;
+  height: 13rem;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 20px;
+  padding: 1rem;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 1.2rem;
+  border-top: 0.1px solid rgba(17, 111, 252, 0.11);
+  box-shadow: -1px 2px 10px 0px rgba(252, 17, 115, 0.63);
+  background: rgb(7, 6, 14);
+  color: white;
+}
+#output {
+  cursor: not-allowed;
+}
+#submit {
+  width: 9rem;
+  height: 3rem;
+  margin: auto;
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background: none;
+  border: 2px solid purple;
+  border-radius: 3px;
+  font-family: var(--font1);
+  font-weight: 800;
+  outline: none;
+  color: white;
+}
+#submit:hover {
+  background: purple;
+  cursor: pointer;
+  transition-delay: all 1s ease;
+  box-shadow: 0 0 5px rgb(241, 241, 241), 0 0 8px rgb(241, 241, 241),
+    0 0 12px rgb(241, 241, 241), 0 0 25px purple, 0 0 35px purple;
+}
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  font-family: car(--font1);
+  font-weight: 300;
+  margin-top: 4rem;
+  box-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 10px green,
+    0 0 15px green;
+}
+.foot-text {
+  font-family: var(--font1);
+  font-weight: 300;
+  padding-top: 2rem;
+}
+.copy {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
